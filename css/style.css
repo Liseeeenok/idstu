@@ -330,3 +330,47 @@ hr {
   text-align: left;
   color: #848484;
 }
+
+.other_news_text_further {
+  font-family: Jost;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #145f9a;
+}
+
+.seminars_slider {
+  padding: 40px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.ellipse_1 {
+  width: 20px;
+  height: 20px;
+  border: 1px solid;
+  border-radius: 50%;
+  border-color: #858585;
+  margin: 0 7px;
+  background-color: #145f9a;
+}
+
+.ellipse_2 {
+  width: 20px;
+  height: 20px;
+  border: 1px solid;
+  border-radius: 50%;
+  border-color: #858585;
+  margin: 0 7px;
+}
+
+.ellipse_3 {
+  width: 20px;
+  height: 20px;
+  border: 1px solid;
+  border-radius: 50%;
+  border-color: #858585;
+  margin: 0 7px;
+}
