@@ -236,10 +236,22 @@ footer {
 .title_news {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+.view_all {
+  font-family: Jost;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #145f9a;
 }
 
 .news_menu {
   margin-top: 30px;
+  display: flex;
 }
 
 hr {
@@ -248,7 +260,6 @@ hr {
 }
 
 .main_news {
-  width: 46%;
   max-width: 550px;
 }
 
@@ -275,6 +286,42 @@ hr {
 }
 
 .main_news_text_date {
+  font-family: Jost;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #848484;
+}
+
+.other_news {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.other_news_1 {
+  width: 50%;
+  max-width: 280px;
+  margin: 0 0 20px 30px;
+}
+
+.other_news_text {
+  width: 100%;
+}
+
+.other_news_text_title {
+  font-family: Jost;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #242423;
+}
+
+.other_news_text_date {
   font-family: Jost;
   font-size: 16px;
   font-weight: 400;
