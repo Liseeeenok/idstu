@@ -434,3 +434,11 @@ hr {
   text-align: left;
   color: #145f9a;
 }
+
+.partners {
+  width: 80%;
+  max-width: 1200px;
+  margin: auto;
+  padding-top: 24px;
+  margin-bottom: 64px;
+}
