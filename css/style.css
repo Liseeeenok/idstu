@@ -439,6 +439,14 @@ hr {
   width: 80%;
   max-width: 1200px;
   margin: auto;
-  padding-top: 24px;
+  padding: 24px 0 35px 0;
   margin-bottom: 64px;
+}
+
+.banner {
+  height: 164px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 54px;
 }
