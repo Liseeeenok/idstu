@@ -226,6 +226,10 @@ footer {
   padding: 32px 0;
 }
 
+.submenu_item {
+  cursor: pointer;
+}
+
 .news {
   width: 80%;
   max-width: 1200px;
