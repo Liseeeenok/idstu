@@ -345,17 +345,29 @@ hr {
   color: #145f9a;
 }
 
+.seminars_wrapper {
+  overflow: hidden;
+}
+
+.seminars_slider {
+  display: flex;
+  transition: transform 0.5s ease;
+  will-change: transform;
+  //transform: translate3d(0px, 0px, 0.1px);
+}
+
 .seminars_menu {
   margin-top: 30px;
   display: flex;
   justify-content: space-between;
+  min-width: 100%;
 }
 
 .seminars_other {
   width: 27%;
 }
 
-.seminars_slider {
+.seminars_slider_ellips {
   padding: 40px 0;
   display: flex;
   justify-content: center;
@@ -370,6 +382,7 @@ hr {
   border-color: #858585;
   margin: 0 7px;
   background-color: #145f9a;
+  cursor: pointer;
 }
 
 .ellipse_2 {
@@ -379,6 +392,7 @@ hr {
   border-radius: 50%;
   border-color: #858585;
   margin: 0 7px;
+  cursor: pointer;
 }
 
 .ellipse_3 {
@@ -388,6 +402,7 @@ hr {
   border-radius: 50%;
   border-color: #858585;
   margin: 0 7px;
+  cursor: pointer;
 }
 
 .publications_menu {
