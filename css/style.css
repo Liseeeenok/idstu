@@ -410,10 +410,11 @@ hr {
   margin-top: 30px;
   display: flex;
   justify-content: space-between;
+  min-width: 100%;
 }
 
 .publications_other {
-  width: 48%;
+  min-width: 48%;
   background-color: #dbedfa;
   display: flex;
 }
