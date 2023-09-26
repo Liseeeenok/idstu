@@ -266,6 +266,7 @@ hr {
 
 .main_news {
   max-width: 550px;
+  cursor: pointer;
 }
 
 .main_news_text {
@@ -310,6 +311,7 @@ hr {
   width: 50%;
   max-width: 280px;
   margin: 0 0 20px 30px;
+  cursor: pointer;
 }
 
 .other_news_text {
