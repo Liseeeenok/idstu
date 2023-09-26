@@ -27,13 +27,3 @@ publications_slider_div.forEach(element => {
         if (element.classList[0] == "ellipse_3") publications_slider.style.cssText = 'transform: translate(-200%, 0px);';        
     })
 });
-
-
-for (var i = 0; i < publications_slider_div.length; i++) {
-    publications_slider_div[i].addEventListener('click', (el) => {
-        for (element of publications_slider_div) {
-            element.style.backgroundColor = "#ffffff";
-        }
-        el.srcElement.style.backgroundColor = "#145f9a";
-    })
-}
