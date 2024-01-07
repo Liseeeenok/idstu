@@ -1,6 +1,6 @@
 * {
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
   border: none;
 }
 
@@ -71,8 +71,7 @@ header {
 .title {
   align-items: center;
   width: 80%;
-  margin: auto;
-  margin-top: 30px;
+  margin: 30px auto auto;
   height: 140px;
   display: flex;
   max-width: 1200px;
@@ -92,11 +91,11 @@ header {
   vertical-align: middle;
   width: 60%;
   max-width: 590px;
-  font-family: Jost;
+  font-family: Jost, serif;
   font-size: 18px;
   font-weight: 500;
   line-height: 26px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
 }
 
@@ -219,10 +218,9 @@ footer {
 .submenu {
   width: 56%;
   max-width: 803px;
-  margin: auto;
   display: flex;
   justify-content: space-between;
-  margin-top: 30px;
+  margin: 30px auto auto;
   text-align: center;
   padding: 32px 0;
 }
@@ -245,11 +243,11 @@ footer {
 }
 
 .view_all {
-  font-family: Jost;
+  font-family: Jost, serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 29px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
   color: #145f9a;
 }
@@ -260,8 +258,7 @@ footer {
 }
 
 hr {
-  border: 1px solid;
-  border-color: #145f9a;
+  border: 1px solid #145f9a;
 }
 
 .main_news {
@@ -274,16 +271,16 @@ hr {
 }
 
 .main_news_text_title {
-  font-family: Jost;
+  font-family: Jost, serif;
   font-size: 24px;
   font-weight: 500;
   line-height: 34px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
 }
 
 .main_news_text_p {
-  font-family: Jost;
+  font-family: Jost, serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 29px;
@@ -292,11 +289,11 @@ hr {
 }
 
 .main_news_text_date {
-  font-family: Jost;
+  font-family: Jost, serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 22px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
   color: #848484;
 }
@@ -319,31 +316,31 @@ hr {
 }
 
 .other_news_text_title {
-  font-family: Jost;
+  font-family: Jost, serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 23px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
   color: #242423;
 }
 
 .other_news_text_date {
-  font-family: Jost;
+  font-family: Jost, serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 22px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
   color: #848484;
 }
 
 .other_news_text_further {
-  font-family: Jost;
+  font-family: Jost, serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 26px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
   color: #145f9a;
 }
@@ -370,7 +367,7 @@ hr {
   width: 27%;
 }
 
-.seminars_slider_ellips {
+.seminars_slider_ellipse {
   padding: 40px 0;
   display: flex;
   justify-content: center;
@@ -380,9 +377,8 @@ hr {
 .ellipse_1 {
   width: 20px;
   height: 20px;
-  border: 1px solid;
   border-radius: 50%;
-  border-color: #858585;
+  border: 1px solid #858585;
   margin: 0 7px;
   background-color: #145f9a;
   cursor: pointer;
@@ -391,9 +387,8 @@ hr {
 .ellipse_2 {
   width: 20px;
   height: 20px;
-  border: 1px solid;
   border-radius: 50%;
-  border-color: #858585;
+  border: 1px solid #858585;
   margin: 0 7px;
   cursor: pointer;
 }
@@ -401,9 +396,8 @@ hr {
 .ellipse_3 {
   width: 20px;
   height: 20px;
-  border: 1px solid;
   border-radius: 50%;
-  border-color: #858585;
+  border: 1px solid #858585;
   margin: 0 7px;
   cursor: pointer;
 }
@@ -417,11 +411,12 @@ hr {
 
 .publications_other {
   min-width: 48%;
+  max-width: 576px;
   background-color: #dbedfa;
   display: flex;
 }
 
-.publications_oher_image {
+.publications_other_image {
   height: 235px;
   margin: 20px;
 }
@@ -431,29 +426,29 @@ hr {
 }
 
 .publications_other_text_title {
-  font-family: Jost;
+  font-family: Jost, serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 25px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
 }
 
 .publications_other_text_p {
-  font-family: Jost;
+  font-family: Jost, serif;
   font-size: 13px;
   font-weight: 300;
   line-height: 19px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
 }
 
 .publications_other_text_look {
-  font-family: Jost;
+  font-family: Jost, serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 22px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
   color: #145f9a;
 }
@@ -461,9 +456,8 @@ hr {
 .partners {
   width: 80%;
   max-width: 1200px;
-  margin: auto;
   padding: 24px 0 35px 0;
-  margin-bottom: 64px;
+  margin: auto auto 64px;
 }
 
 .banner {
