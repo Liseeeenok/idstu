@@ -12,6 +12,7 @@
 <body>
 <header>
     <div class="menu">
+        <img src="../image/menu.svg" alt="Меню">
         <div class="menu_button">
             <p class="menu_text">Институт</p>
             <img src="../image/arrow_icon.svg" alt="" draggable="false">
@@ -93,7 +94,7 @@
     </div>
     <hr>
     <div class="news_menu">
-        <div class="main_news" onclick="location.href='news.html';">
+        <div class="main_news">
             <img class="main_news_image" src="../image/main_news.svg" alt="">
             <div class="main_news_text">
                 <p class="main_news_text_title">День открытых дверей научного центра</p>
@@ -102,38 +103,42 @@
             </div>
         </div>
         <div class="other_news">
-            <div class="other_news_1" onclick="location.href='news.html';">
-                <img src="../image/news_1.svg" alt="">
-                    <div class="other_news_text">
-                        <p class="other_news_text_title">Николай Андреев выступит в ИДСТУ СО РАН с научно-популярной лекцией «Математическая составляющая нашей жизни»</p>
-                        <p class="other_news_text_date">20.08.2023</p>
+            <div class="first_column">
+                <div class="old_news" onclick="location.href='news.html'">
+                    <img src="../image/news_1.svg" alt="">
+                    <div class="old_news_text">
+                        <p class="old_news_text_title">Николай Андреев выступит в ИДСТУ СО РАН с научно-популярной лекцией «Математическая составляющая нашей жизни»</p>
+                        <p class="old_news_text_date">20.08.2023</p>
                     </div>
+                </div>
+                <div class="old_news" onclick="location.href='news.html'">
+                    <img src="../image/news_2.svg" alt="">
+                    <div class="old_news_text">
+                        <p class="old_news_text_title">Как стать учёным-математиком – эксперты «Областной»</p>
+                        <p class="old_news_text_date">20.08.2023</p>
+                    </div>
+                </div>
             </div>
-            <div class="other_news_1" onclick="location.href='news.html';">
-                <img src="../image/news_2.svg" alt="">
-                    <div class="other_news_text">
-                        <p class="other_news_text_title">Как стать учёным-математиком – эксперты «Областной»</p>
-                        <p class="other_news_text_date">20.08.2023</p>
+            <div class="second_column">
+                <div class="old_news" onclick="location.href='news.html'">
+                    <img src="../image/news_3.svg" alt="">
+                    <div class="old_news_text">
+                        <p class="old_news_text_title">ИДСТУ СО РАН принимает участие в разработке систем оценки сейсмической опасности Прибайкалья и Монголии</p>
+                        <p class="old_news_text_date">20.08.2023</p>
                     </div>
-            </div>
-            <div class="other_news_1" onclick="location.href='news.html';">
-                <img src="../image/news_3.svg" alt="">
-                    <div class="other_news_text">
-                        <p class="other_news_text_title">ИДСТУ СО РАН принимает участие в разработке систем оценки сейсмической опасности Прибайкалья и Монголии</p>
-                        <p class="other_news_text_date">20.08.2023</p>
+                </div>
+                <div class="old_news" onclick="location.href='news.html'">
+                    <img src="../image/news_4.svg" alt="">
+                    <div class="old_news_text">
+                        <p class="old_news_text_title">Иркутские и китайские ученые планируют расширить взаимодействие в научно-технической сфере</p>
+                        <p class="old_news_text_date">20.08.2023</p>
                     </div>
-            </div>
-            <div class="other_news_1" onclick="location.href='news.html';">
-                <img src="../image/news_4.svg" alt="">
-                    <div class="other_news_text">
-                        <p class="other_news_text_title">Иркутские и китайские ученые планируют расширить взаимодействие в научно-технической сфере</p>
-                        <p class="other_news_text_date">20.08.2023</p>
-                    </div>
+                </div>
             </div>
         </div>
     </div>
 </div>
-<div style="background: #F7FAFF;">
+<div class="seminars">
     <div class="news">
         <div class="title_news">
             <h1>Семинары</h1>
@@ -144,70 +149,70 @@
             <div class="seminars_slider" id="seminars_slider">
                 <div class="seminars_menu">
                     <div class="seminars_other">
-                        <div class="other_news_text">
-                            <p class="other_news_text_date">Пн, 16 мая 2022 года</p>
-                            <p class="other_news_text_title">Методы и программные средства создания интеллектуальных систем с декларативными базами знаний на основе модельных трансформаций</p>
-                            <p class="other_news_text_further">Читать далее</p>
+                        <div class="other_seminars_text">
+                            <p class="other_seminars_text_date">Пн, 16 мая 2022 года</p>
+                            <p class="other_seminars_text_title">Методы и программные средства создания интеллектуальных систем с декларативными базами знаний на основе модельных трансформаций</p>
+                            <p class="other_seminars_text_further">Читать далее</p>
                         </div>
                     </div>
                     <div class="seminars_other">
-                        <div class="other_news_text">
-                            <p class="other_news_text_date">Чт, 5 мая 2022 года</p>
-                            <p class="other_news_text_title">Погодаев Н.И., Старицын М.В. “Оптимальное управление нелокальным уравнением неразрывности”</p>
-                            <p class="other_news_text_further">Читать далее</p>
+                        <div class="other_seminars_text">
+                            <p class="other_seminars_text_date">Чт, 5 мая 2022 года</p>
+                            <p class="other_seminars_text_title">Погодаев Н.И., Старицын М.В. “Оптимальное управление нелокальным уравнением неразрывности”</p>
+                            <p class="other_seminars_text_further">Читать далее</p>
                         </div>
                     </div>
                     <div class="seminars_other">
-                        <div class="other_news_text">
-                            <p class="other_news_text_date">Чт, 28 апреля 2022 года</p>
-                            <p class="other_news_text_title">Технология создания интеллектуальных систем с декларативными базами знаний на основе модельных трансформаций</p>
-                            <p class="other_news_text_further">Читать далее</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="seminars_menu">
-                    <div class="seminars_other">
-                        <div class="other_news_text">
-                            <p class="other_news_text_date">Пн, 16 мая 2022 года</p>
-                            <p class="other_news_text_title">Семинар номер 4</p>
-                            <p class="other_news_text_further">Читать далее</p>
-                        </div>
-                    </div>
-                    <div class="seminars_other">
-                        <div class="other_news_text">
-                            <p class="other_news_text_date">Чт, 5 мая 2022 года</p>
-                            <p class="other_news_text_title">Семинар номер 5</p>
-                            <p class="other_news_text_further">Читать далее</p>
-                        </div>
-                    </div>
-                    <div class="seminars_other">
-                        <div class="other_news_text">
-                            <p class="other_news_text_date">Чт, 28 апреля 2022 года</p>
-                            <p class="other_news_text_title">Семинар номер 6</p>
-                            <p class="other_news_text_further">Читать далее</p>
+                        <div class="other_seminars_text">
+                            <p class="other_seminars_text_date">Чт, 28 апреля 2022 года</p>
+                            <p class="other_seminars_text_title">Технология создания интеллектуальных систем с декларативными базами знаний на основе модельных трансформаций</p>
+                            <p class="other_seminars_text_further">Читать далее</p>
                         </div>
                     </div>
                 </div>
                 <div class="seminars_menu">
                     <div class="seminars_other">
-                        <div class="other_news_text">
-                            <p class="other_news_text_date">Пн, 16 мая 2022 года</p>
-                            <p class="other_news_text_title">Семинар номер 7</p>
-                            <p class="other_news_text_further">Читать далее</p>
+                        <div class="other_seminars_text">
+                            <p class="other_seminars_text_date">Пн, 16 мая 2022 года</p>
+                            <p class="other_seminars_text_title">Семинар номер 4</p>
+                            <p class="other_seminars_text_further">Читать далее</p>
                         </div>
                     </div>
                     <div class="seminars_other">
-                        <div class="other_news_text">
-                            <p class="other_news_text_date">Чт, 5 мая 2022 года</p>
-                            <p class="other_news_text_title">Семинар номер 8</p>
-                            <p class="other_news_text_further">Читать далее</p>
+                        <div class="other_seminars_text">
+                            <p class="other_seminars_text_date">Чт, 5 мая 2022 года</p>
+                            <p class="other_seminars_text_title">Семинар номер 5</p>
+                            <p class="other_seminars_text_further">Читать далее</p>
                         </div>
                     </div>
                     <div class="seminars_other">
-                        <div class="other_news_text">
-                            <p class="other_news_text_date">Чт, 28 апреля 2022 года</p>
-                            <p class="other_news_text_title">Семинар номер 9</p>
-                            <p class="other_news_text_further">Читать далее</p>
+                        <div class="other_seminars_text">
+                            <p class="other_seminars_text_date">Чт, 28 апреля 2022 года</p>
+                            <p class="other_seminars_text_title">Семинар номер 6</p>
+                            <p class="other_seminars_text_further">Читать далее</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="seminars_menu">
+                    <div class="seminars_other">
+                        <div class="other_seminars_text">
+                            <p class="other_seminars_text_date">Пн, 16 мая 2022 года</p>
+                            <p class="other_seminars_text_title">Семинар номер 7</p>
+                            <p class="other_seminars_text_further">Читать далее</p>
+                        </div>
+                    </div>
+                    <div class="seminars_other">
+                        <div class="other_seminars_text">
+                            <p class="other_seminars_text_date">Чт, 5 мая 2022 года</p>
+                            <p class="other_seminars_text_title">Семинар номер 8</p>
+                            <p class="other_seminars_text_further">Читать далее</p>
+                        </div>
+                    </div>
+                    <div class="seminars_other">
+                        <div class="other_seminars_text">
+                            <p class="other_seminars_text_date">Чт, 28 апреля 2022 года</p>
+                            <p class="other_seminars_text_title">Семинар номер 9</p>
+                            <p class="other_seminars_text_further">Читать далее</p>
                         </div>
                     </div>
                 </div>
@@ -220,7 +225,7 @@
         </div>
     </div>
 </div>
-<div class="news">
+<div class="publications">
     <div class="title_news">
         <h1>Публикации</h1>
         <p class="view_all">Посмотреть все</p>
@@ -302,8 +307,8 @@
         <div class="ellipse_3" id="2"></div>
     </div>
 </div>
-<div style="background: #F7FAFF;">
-    <div class="partners">
+<div class="partners">
+    <div class="partners_wrapper">
         <div class="partners_title">
             <h1>Партнёры</h1>
         </div>
@@ -320,78 +325,75 @@
         </div>
     </div>
 </div>
-<div style="background: #D9D9D9;">
-    <div class="banner">
-        <div class="banner_div">МЕСТО ДЛЯ БАННЕРА</div>
-    </div>
-</div>
 <footer>
-    <section class="contacts">
-        <h1 class="contacts_header">Контакты</h1>
-        <div>
-            <p class="contacts_item"><b>Адрес:</b> 664033, Иркутск, ул. Лермонтова, 134</p>
-            <p class="contacts_item"><b>Телефон:</b> +7 395 242-71-00</p>
-            <p class="contacts_item"><b>Факс:</b> +7 395 251-16-16</p>
-            <p class="contacts_item"><b>Почта:</b> idstu@icc.ru</p>
-        </div>
-    </section>
-    <section class="navigation">
-        <h1 class="navigation_header">Меню</h1>
-        <div class="navigation_content">
-            <div class="navigation_left-column">
-                <div class="navigation_item">
-                    <img src="../image/footer_arrow_icon.svg" alt="" draggable="false">
-                    <p>Главная</p>
+    <div class="footer_wrapper">
+        <section class="contacts">
+            <h1 class="contacts_header">Контакты</h1>
+            <div>
+                <p class="contacts_item"><b>Адрес:</b> 664033, Иркутск, ул. Лермонтова, 134</p>
+                <p class="contacts_item"><b>Телефон:</b> +7 395 242-71-00</p>
+                <p class="contacts_item"><b>Факс:</b> +7 395 251-16-16</p>
+                <p class="contacts_item"><b>Почта:</b> idstu@icc.ru</p>
+            </div>
+        </section>
+        <section class="navigation">
+            <h1 class="navigation_header">Меню</h1>
+            <div class="navigation_content">
+                <div class="navigation_left-column">
+                    <div class="navigation_item">
+                        <img src="../image/footer_arrow_icon.svg" alt="" draggable="false">
+                        <p>Главная</p>
+                    </div>
+                    <div class="navigation_item">
+                        <img src="../image/footer_arrow_icon.svg" alt="" draggable="false">
+                        <p>Об институте</p>
+                    </div>
+                    <div class="navigation_item">
+                        <img src="../image/footer_arrow_icon.svg" alt="" draggable="false">
+                        <p>Документы</p>
+                    </div>
+                    <div class="navigation_item">
+                        <img src="../image/footer_arrow_icon.svg" alt="" draggable="false">
+                        <p>Пресс-центр</p>
+                    </div>
+                    <div class="navigation_item">
+                        <img src="../image/footer_arrow_icon.svg" alt="" draggable="false">
+                        <p>Карта сайта</p>
+                    </div>
                 </div>
-                <div class="navigation_item">
-                    <img src="../image/footer_arrow_icon.svg" alt="" draggable="false">
-                    <p>Об институте</p>
-                </div>
-                <div class="navigation_item">
-                    <img src="../image/footer_arrow_icon.svg" alt="" draggable="false">
-                    <p>Документы</p>
-                </div>
-                <div class="navigation_item">
-                    <img src="../image/footer_arrow_icon.svg" alt="" draggable="false">
-                    <p>Пресс-центр</p>
-                </div>
-                <div class="navigation_item">
-                    <img src="../image/footer_arrow_icon.svg" alt="" draggable="false">
-                    <p>Карта сайта</p>
+                <div class="navigation_right-column">
+                    <div class="navigation_item">
+                        <img src="../image/footer_arrow_icon.svg" alt="" draggable="false">
+                        <p>Новости</p>
+                    </div>
+                    <div class="navigation_item">
+                        <img src="../image/footer_arrow_icon.svg" alt="" draggable="false">
+                        <p>Аспирантура</p>
+                    </div>
+                    <div class="navigation_item">
+                        <img src="../image/footer_arrow_icon.svg" alt="" draggable="false">
+                        <p>Образование</p>
+                    </div>
+                    <div class="navigation_item">
+                        <img src="../image/footer_arrow_icon.svg" alt="" draggable="false">
+                        <p>Обращения</p>
+                    </div>
+                    <div class="navigation_item">
+                        <img src="../image/footer_arrow_icon.svg" alt="" draggable="false">
+                        <p>Контакты</p>
+                    </div>
                 </div>
             </div>
-            <div class="navigation_right-column">
-                <div class="navigation_item">
-                    <img src="../image/footer_arrow_icon.svg" alt="" draggable="false">
-                    <p>Новости</p>
-                </div>
-                <div class="navigation_item">
-                    <img src="../image/footer_arrow_icon.svg" alt="" draggable="false">
-                    <p>Аспирантура</p>
-                </div>
-                <div class="navigation_item">
-                    <img src="../image/footer_arrow_icon.svg" alt="" draggable="false">
-                    <p>Образование</p>
-                </div>
-                <div class="navigation_item">
-                    <img src="../image/footer_arrow_icon.svg" alt="" draggable="false">
-                    <p>Обращения</p>
-                </div>
-                <div class="navigation_item">
-                    <img src="../image/footer_arrow_icon.svg" alt="" draggable="false">
-                    <p>Контакты</p>
-                </div>
+        </section>
+        <section class="social">
+            <h1 class="social_header">Социальные сети</h1>
+            <div class="social_content">
+                <img src="../image/vk_logo.svg" alt="VK Logo">
+                <img src="../image/telegram_logo.svg" alt="Telegram Logo">
+                <img src="../image/youtube_logo.svg" alt="Youtube Logo">
             </div>
-        </div>
-    </section>
-    <section class="social">
-        <h1 class="social_header">Социальные сети</h1>
-        <div class="social_content">
-            <img src="../image/vk_logo.svg" alt="VK Logo">
-            <img src="../image/telegram_logo.svg" alt="Telegram Logo">
-            <img src="../image/youtube_logo.svg" alt="Youtube Logo">
-        </div>
-    </section>
+        </section>
+    </div>
 </footer>
 <script src="../js/main.js"></script>
 <script src="../js/index.js"></script>
