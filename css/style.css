@@ -90,27 +90,16 @@ header {
 
 .title_text {
   color: #145f9a;
-}
-
-.title_text_div {
-  vertical-align: middle;
-  width: 60%;
-  max-width: 590px;
-  font-family: Jost, serif;
   font-size: 18px;
   font-weight: 500;
   line-height: 26px;
-  letter-spacing: 0;
-  text-align: left;
-}
-
-.title_image_div {
-  width: 40%;
-  height: 140px;
+  width: 60%;
+  max-width: 590px;
+  vertical-align: middle;
 }
 
 .title_image {
-  width: 100%;
+  width: 40%;
   height: 140px;
 }
 
@@ -143,7 +132,7 @@ footer {
 }
 
 .contacts {
-  margin: 100px 0 250px 0;
+  margin: 100px 0 150px 0;
 }
 
 .contacts_header {
@@ -240,6 +229,7 @@ footer {
 
 .submenu_item {
   cursor: pointer;
+  max-width: 100px;
 }
 
 .news {
@@ -279,6 +269,10 @@ hr {
   cursor: pointer;
 }
 
+.main_news_text {
+  width: 595px;
+}
+
 .main_news_text_title {
   font-family: Jost, serif;
   font-size: 24px;
@@ -310,8 +304,9 @@ hr {
 
 .other_news {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   margin-top: 30px;
+  width: 595px;
 }
 
 .old_news {
@@ -319,8 +314,14 @@ hr {
   cursor: pointer;
 }
 
-.first_column {
-  margin: 0 35px 0 0;
+.first_row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.second_row {
+  display: flex;
+  justify-content: space-between;
 }
 
 .old_news_text_title {
@@ -506,10 +507,6 @@ hr {
 }
 
 @media (max-width: 1500px) {
-  .title_image {
-    display: none;
-  }
-
   .news_menu {
     flex-direction: column;
     align-items: center;
@@ -554,5 +551,217 @@ hr {
 
   .social {
     margin: 0 0 100px;
+  }
+}
+
+@media (max-width: 1100px) {
+  header {
+    padding: 0 60px;
+  }
+
+  .title_text {
+    font-size: 16px;
+  }
+
+  .title_logo {
+    margin-left: 30px;
+  }
+
+  .title {
+    width: initial;
+  }
+
+  .slider {
+    width: initial;
+  }
+
+  .submenu {
+    width: 60%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .title_text {
+    font-size: 14px;
+  }
+
+  .submenu_item img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .submenu_item p {
+    font-size: 16px;
+  }
+
+  .submenu {
+    width: 80%;
+  }
+}
+
+@media (max-width: 800px) {
+  .publications_other {
+    flex-direction: row;
+    align-items: center;
+    max-width: initial;
+    margin-bottom: 10px;
+  }
+
+  .publications_menu {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 700px) {
+  .main_news,
+  .main_news_text {
+    max-width: 400px;
+  }
+
+  .main_news_image {
+    width: 400px;
+  }
+
+  .main_news_text_title {
+    font-size: 20px;
+  }
+
+  .main_news_text_p,
+  .main_news_text_date {
+    font-size: 16px;
+    margin-top: 5px;
+    line-height: 25px
+  }
+
+  .other_news {
+    width: 400px;
+  }
+
+  .old_news {
+    max-width: 195px;
+  }
+
+  .old_news_image {
+    width: 195px;
+  }
+
+  .old_news_text_title,
+  .old_news_text_date {
+    font-size: 12px;
+  }
+
+  h1 {
+    font-size: 24px
+  }
+
+  .view_all {
+    font-size: 16px;
+  }
+
+  .other_seminars_text_date,
+  .other_seminars_text_title,
+  .other_seminars_text_further,
+  .title_text {
+    font-size: 12px;
+  }
+
+  .title {
+    justify-content: start;
+  }
+
+  .title_image {
+    display: none;
+  }
+
+  .contacts {
+    margin: 50px 0 50px;
+  }
+
+  .contacts_item {
+    font-size: 16px;
+  }
+
+  .navigation_item p {
+    font-size: 16px;
+  }
+
+  .submenu_item img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .submenu_item p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 600px) {
+  .publications_menu {
+    justify-content: start;
+  }
+
+  .publications_other {
+    flex-direction: column;
+  }
+
+  .seminars_slider_ellipse {
+    margin-bottom: 30px;
+  }
+
+  header {
+    padding: 0 30px;
+  }
+
+  .menu img {
+    width: 30px;
+    height: 76px;
+  }
+
+  .buttons_icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .menu_divider {
+    margin: 10px;
+  }
+
+  .menu_language {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 500px) {
+  .title {
+    margin: 5px auto auto;
+  }
+
+  .title_text {
+    line-height: 23px
+  }
+
+  .submenu_item img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .submenu_item p {
+    font-size: 10px;
+  }
+
+  .main_news,
+  .main_news_image,
+  .main_news_text,
+  .other_news {
+    width: 300px;
+  }
+
+  .old_news,
+  .old_news_image {
+    max-width: 140px;
+  }
+
+  .old_news_text_title {
+    line-height: initial;
   }
 }
