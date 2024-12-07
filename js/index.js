@@ -1,6 +1,7 @@
 seminars_slider_ellips = document.getElementById('seminars_slider_ellipse');
 seminars_slider_div = seminars_slider_ellips.querySelectorAll('div');
 seminars_slider = document.getElementById("seminars_slider");
+
 seminars_slider_div.forEach(element => {
     element.addEventListener('click', () => {
         seminars_slider_div.forEach(element => {
@@ -16,6 +17,7 @@ seminars_slider_div.forEach(element => {
 publications_slider_ellips = document.getElementById('publications_slider_ellipse');
 publications_slider_div = publications_slider_ellips.querySelectorAll('div');
 publications_slider = document.getElementById("publications_slider");
+
 publications_slider_div.forEach(element => {
     element.addEventListener('click', () => {
         publications_slider_div.forEach(element => {
